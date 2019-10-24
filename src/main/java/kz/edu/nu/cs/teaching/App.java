@@ -17,10 +17,10 @@ public class App {
         wordcount(getTestLinesStream());
         
         System.out.println("\nTask 2 " + h);
-        filterbywordlength(getTestLinesStream());
+        filterByWordLength(getTestLinesStream());
 
         System.out.println("\nTask 3 " + h);
-        groupwordsbylength(getTestLinesStream());
+        groupWordsByFirstCharacter(getTestLinesStream());
     }
     
     /*
@@ -33,19 +33,19 @@ public class App {
     /*
      * Task 2, filter lines by lengths of longest words
      */
-    public static void filterbywordlength(Stream<String> stream) {
+    public static void filterByWordLength(Stream<String> stream) {
         // complete method
     }
     
     /*
      * Task 3, group words by first character
      */
-    public static void groupwordsbylength(Stream<String> stream) {
+    public static void groupWordsByFirstCharacter(Stream<String> stream) {
         // complete method
     }
     
     /*
-     * Create Stream of lines from file
+     * Return Stream of lines from file
      */
     public static Stream<String> getTestLinesStream() {
         File file = new File("lambtest.txt");
